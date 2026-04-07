@@ -1,0 +1,389 @@
+{
+  "users": [
+    {
+      "id": "owner-1",
+      "username": "canteen",
+      "password": "password",
+      "role": "owner"
+    },
+    {
+      "id": "student-1",
+      "username": "student",
+      "password": "password",
+      "role": "student"
+    },
+    {
+      "id": "23e02c3f-a365-4f10-a862-d1d748b6c5eb",
+      "email": "sruthiveeramaneni3@gmail.com",
+      "password": "sruthi@123",
+      "role": "student"
+    },
+    {
+      "id": "0e7d1d90-c083-41f2-888c-4ea80e5891a5",
+      "email": "canteen@gmail.com",
+      "password": "canteen@123",
+      "role": "owner"
+    },
+    {
+      "id": "63c9ba7e-73a3-4fdf-bbe6-3fca9f4861f6",
+      "name": "Veeramaneni sruthi",
+      "email": "veeramanenisruthi3@gmail.com",
+      "password": "sruthi123",
+      "role": "student"
+    },
+    {
+      "id": "78ff53ee-41a0-462f-be4b-e0d9a7956faf",
+      "name": "Canteen Connect",
+      "email": "Owner@123",
+      "password": "canteen123",
+      "role": "owner"
+    },
+    {
+      "id": "67b57463-1bdd-4a51-a46a-ccf603bf942a",
+      "name": "Nikitha",
+      "email": "nikitha@gmail.com",
+      "password": "nikitha@123",
+      "role": "student"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "item-1",
+      "name": "Margherita Pizza",
+      "description": "Classic cheese and tomato pizza.",
+      "price": 120,
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=80"
+    },
+    {
+      "id": "item-2",
+      "name": "Veg Burger",
+      "description": "Crispy veg patty with lettuce and mayo.",
+      "price": 60,
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&q=80"
+    },
+    {
+      "id": "item-3",
+      "name": "Cold Coffee",
+      "description": "Refreshing iced coffee with ice cream.",
+      "price": 80,
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&q=80"
+    },
+    {
+      "id": "12aee8ad-9101-45f6-a5ea-3d5a1d939b11",
+      "name": "idly",
+      "description": "smooth",
+      "price": 50,
+      "available": true,
+      "imageUrl": "data:image/jpeg;base64,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"
+    }
+  ],
+  "orders": [
+    {
+      "id": "c87dc2bf-53dd-43e1-b6f3-e4855b4589f0",
+      "studentId": "student-1",
+      "items": [
+        {
+          "menuItemId": "12aee8ad-9101-45f6-a5ea-3d5a1d939b11",
+          "quantity": 2,
+          "price": 50,
+          "name": "idly"
+        }
+      ],
+      "totalAmount": 100,
+      "pickupTime": "22:45",
+      "status": "handover_completed",
+      "shortToken": "C7H6EE",
+      "createdAt": "2026-04-03T17:13:27.035Z"
+    },
+    {
+      "id": "82c7c0a9-14e2-49a9-8d26-68553d418b5a",
+      "studentId": "23e02c3f-a365-4f10-a862-d1d748b6c5eb",
+      "items": [
+        {
+          "menuItemId": "item-3",
+          "quantity": 1,
+          "price": 80,
+          "name": "Cold Coffee"
+        }
+      ],
+      "totalAmount": 80,
+      "pickupTime": "22:54",
+      "status": "handover_completed",
+      "shortToken": "386UW0",
+      "createdAt": "2026-04-03T17:21:51.430Z"
+    },
+    {
+      "id": "1736c872-934c-45c6-9b3b-07f67260ea87",
+      "studentId": "63c9ba7e-73a3-4fdf-bbe6-3fca9f4861f6",
+      "items": [
+        {
+          "menuItemId": "item-3",
+          "quantity": 1,
+          "price": 80,
+          "name": "Cold Coffee"
+        }
+      ],
+      "totalAmount": 80,
+      "pickupTime": "23:04",
+      "status": "handover_completed",
+      "shortToken": "0JAPNC",
+      "createdAt": "2026-04-03T17:32:12.917Z"
+    },
+    {
+      "id": "e7c38694-db87-46ff-8929-bc5d8431378f",
+      "studentId": "67b57463-1bdd-4a51-a46a-ccf603bf942a",
+      "items": [
+        {
+          "menuItemId": "item-1",
+          "quantity": 1,
+          "price": 120,
+          "name": "Margherita Pizza"
+        }
+      ],
+      "totalAmount": 120,
+      "pickupTime": "23:08",
+      "status": "handover_completed",
+      "shortToken": "D1TQ4U",
+      "createdAt": "2026-04-03T17:36:03.314Z"
+    },
+    {
+      "id": "2fb9a903-4ecb-433b-84ae-ab3fb4ff874d",
+      "studentId": "63c9ba7e-73a3-4fdf-bbe6-3fca9f4861f6",
+      "items": [
+        {
+          "menuItemId": "item-3",
+          "quantity": 1,
+          "price": 80,
+          "name": "Cold Coffee"
+        }
+      ],
+      "totalAmount": 80,
+      "pickupTime": "23:10",
+      "status": "handover_completed",
+      "shortToken": "5KKCGR",
+      "createdAt": "2026-04-03T17:37:20.457Z"
+    },
+    {
+      "id": "ef5f9e7f-2e28-4886-87bd-242377fe451d",
+      "studentId": "67b57463-1bdd-4a51-a46a-ccf603bf942a",
+      "items": [
+        {
+          "menuItemId": "item-1",
+          "quantity": 2,
+          "price": 120,
+          "name": "Margherita Pizza"
+        }
+      ],
+      "totalAmount": 240,
+      "pickupTime": "23:59",
+      "status": "handover_completed",
+      "shortToken": "4NIIJ4",
+      "createdAt": "2026-04-03T18:28:19.824Z"
+    },
+    {
+      "id": "3c1198b4-d47f-46c2-8c32-114a29193a9f",
+      "studentId": "67b57463-1bdd-4a51-a46a-ccf603bf942a",
+      "items": [
+        {
+          "menuItemId": "item-2",
+          "quantity": 2,
+          "price": 60,
+          "name": "Veg Burger"
+        },
+        {
+          "menuItemId": "item-3",
+          "quantity": 1,
+          "price": 80,
+          "name": "Cold Coffee"
+        }
+      ],
+      "totalAmount": 200,
+      "pickupTime": "00:10",
+      "status": "handover_completed",
+      "shortToken": "AXM37Q",
+      "createdAt": "2026-04-03T18:37:30.697Z"
+    },
+    {
+      "id": "989a721a-ca96-4e08-bab7-c10960a97bfc",
+      "studentId": "67b57463-1bdd-4a51-a46a-ccf603bf942a",
+      "items": [
+        {
+          "menuItemId": "item-1",
+          "quantity": 1,
+          "price": 120,
+          "name": "Margherita Pizza"
+        }
+      ],
+      "totalAmount": 120,
+      "pickupTime": "14:04",
+      "status": "handover_completed",
+      "shortToken": "MO2UN5",
+      "createdAt": "2026-04-04T08:32:57.833Z"
+    },
+    {
+      "id": "11b7ba7e-3ddf-450f-b145-8208db05334a",
+      "studentId": "63c9ba7e-73a3-4fdf-bbe6-3fca9f4861f6",
+      "items": [
+        {
+          "menuItemId": "item-1",
+          "quantity": 1,
+          "price": 120,
+          "name": "Margherita Pizza"
+        }
+      ],
+      "totalAmount": 120,
+      "pickupTime": "21:41",
+      "status": "pending",
+      "shortToken": "GW8AUG",
+      "createdAt": "2026-04-04T16:08:37.129Z"
+    },
+    {
+      "id": "183d5ade-8b07-4b78-8db4-d97a68c904e2",
+      "studentId": "23e02c3f-a365-4f10-a862-d1d748b6c5eb",
+      "items": [
+        {
+          "menuItemId": "item-1",
+          "quantity": 3,
+          "price": 120,
+          "name": "Margherita Pizza"
+        }
+      ],
+      "totalAmount": 360,
+      "pickupTime": "10:07",
+      "status": "handover_completed",
+      "shortToken": "BZMZ90",
+      "createdAt": "2026-04-06T04:36:37.504Z"
+    }
+  ],
+  "menu": [
+    {
+      "id": "m1",
+      "name": "Masala Dosa",
+      "price": 50,
+      "description": "Crispy crepe with potato filling",
+      "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?w=500",
+      "available": true,
+      "category": "Tiffins"
+    },
+    {
+      "id": "m2",
+      "name": "Idli Sambar",
+      "price": 30,
+      "description": "Steamed rice cakes with lentil soup",
+      "imageUrl": "https://images.unsplash.com/photo-1589301760019-d2d09558d6e3?w=500",
+      "available": true,
+      "category": "Tiffins"
+    },
+    {
+      "id": "m3",
+      "name": "Puri Sabji",
+      "price": 40,
+      "description": "Deep fried bread with potato curry",
+      "imageUrl": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500",
+      "available": true,
+      "category": "Tiffins"
+    },
+    {
+      "id": "m4",
+      "name": "Chicken Biryani",
+      "price": 150,
+      "description": "Aromatic basmati rice cooked with spiced chicken",
+      "imageUrl": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500",
+      "available": true,
+      "category": "Rices"
+    },
+    {
+      "id": "m5",
+      "name": "Veg Pulao",
+      "price": 80,
+      "description": "Mildly spiced rice with mixed vegetables",
+      "imageUrl": "https://images.unsplash.com/photo-1631515243349-e0cb4c1133c9?w=500",
+      "available": true,
+      "category": "Rices"
+    },
+    {
+      "id": "m6",
+      "name": "Curd Rice",
+      "price": 50,
+      "description": "Tempered yogurt mixed with rice",
+      "imageUrl": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=500",
+      "available": true,
+      "category": "Rices"
+    },
+    {
+      "id": "m7",
+      "name": "Paneer Butter Masala",
+      "price": 120,
+      "description": "Rich tomato gravy with paneer cubes",
+      "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500",
+      "available": true,
+      "category": "Curries"
+    },
+    {
+      "id": "m8",
+      "name": "Chicken Curry",
+      "price": 130,
+      "description": "Homestyle chicken gravy",
+      "imageUrl": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=500",
+      "available": true,
+      "category": "Curries"
+    },
+    {
+      "id": "m9",
+      "name": "South Indian Thali",
+      "price": 100,
+      "description": "Complete meal with rice, sambar, rasam, curries",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=500",
+      "available": true,
+      "category": "Meals"
+    },
+    {
+      "id": "m10",
+      "name": "North Indian Thali",
+      "price": 120,
+      "description": "Complete meal with roti, dal, paneer, and rice",
+      "imageUrl": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500",
+      "available": true,
+      "category": "Meals"
+    },
+    {
+      "id": "m11",
+      "name": "Filter Coffee",
+      "price": 20,
+      "description": "Strong authentic South Indian coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500",
+      "available": true,
+      "category": "Coffees"
+    },
+    {
+      "id": "m12",
+      "name": "Masala Chai",
+      "price": 15,
+      "description": "Spiced Indian milk tea",
+      "imageUrl": "https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?w=500",
+      "available": true,
+      "category": "Coffees"
+    },
+    {
+      "id": "m13",
+      "name": "Fresh Mango Juice",
+      "price": 40,
+      "description": "Freshly squeezed seasonal mangoes",
+      "imageUrl": "https://images.unsplash.com/photo-1625501314959-1e37bc62d6b3?w=500",
+      "available": true,
+      "category": "Juices"
+    },
+    {
+      "id": "m14",
+      "name": "Samosa",
+      "price": 15,
+      "description": "Crispy pastry with spiced potato filling",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500",
+      "available": true,
+      "category": "Snacks"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "owner-1",
+      "email": "canteen@example.com",
+      "password": "password",
+      "role": "owner"
+    },
+    {
+      "id": "student-1",
+      "email": "student@example.com",
+      "password": "password",
+      "role": "student"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "item-1",
+      "name": "Margherita Pizza",
+      "description": "Classic cheese and tomato pizza.",
+      "price": 120,
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=80"
+    },
+    {
+      "id": "item-2",
+      "name": "Veg Burger",
+      "description": "Crispy veg patty with lettuce and mayo.",
+      "price": 60,
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&q=80"
+    },
+    {
+      "id": "item-3",
+      "name": "Cold Coffee",
+      "description": "Refreshing iced coffee with ice cream.",
+      "price": 80,
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&q=80"
+    }
+  ],
+  "orders": []
+}
