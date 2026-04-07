@@ -25,6 +25,10 @@ app.get('/api/health', (req, res) => {
     res.json({ status: 'ok' });
 });
 
+app.get('/', (req, res) => {
+    res.send('Canteen Connect Backend API is Running!');
+});
+
 app.listen(PORT, () => {
     console.log(`Backend server running on http://localhost:${PORT}`);
 });
